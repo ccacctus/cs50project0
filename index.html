@@ -24,18 +24,24 @@
                 height:30px;
                 font-size:14pt;
             }
-            .searchbarid{
-                padding: 100em;
-                height: 50px;
+            #searchbarid{
+                position:absolute;
+                font-size: 14px;
+                font-family: arial,sans-serif;
+                padding: 15px 32px;
+                font-size: 16px;
+                margin: 10px;
+                cursor: pointer;
+                text-align: center;
             }
             
         </style>
     </head>
     <body class="searchbar">
         <form action="https://www.google.com/search">
-            <input id="textboxid" type="text" name="q">
+            <input  type="text" id="textboxid" name="q">
             <div>
-                <input id="searchbarid" type="submit" value="Google Search">
+                <input  type="submit" id="searchbarid" value="Google Search">
             </div>
 
         </form>
